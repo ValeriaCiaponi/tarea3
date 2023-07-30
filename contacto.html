@@ -7,30 +7,32 @@
 </head>
 <body>
     <main>
-     <h1> INFO DE CONTACTO </h1>
-     <H2> complete el formulario y nos contactaremos a la brevedad.</H2>
+     <section>
+        <h1> INFO DE CONTACTO </h1>
+        <H2> complete el formulario y nos contactaremos a la brevedad.</H2>
  
       <form action="" method="get"> 
-        <label for="nombre">Nombre:</label>
+        <label for="nombre"> Nombre: </label>
         <input type="text" id="nombre">
-        <br>
+         <br>
         <label for="apellido">Apellido:</label>
         <input type="text" id="apellido">
-        <br>
-        <label for="telefono">Teléfono de contacto:</label>
-        <input name="telefono" type="number" maxlength="15" id="telefono">
-        <br>
-        <br>
-        <input type="radio">Masculino</input>
-        <br>
-        <input type="radio">Femenino</input>
-        <br>
-        <br>
+         <br>
+        <label for="telefono">Teléfono:</label>
+        <input name="telefono" type="tel" maxlength="13" id="telefono">
+         <br>
+         <br>
+        
+        <input type="radio" name="genero" value="1">masculino
+         <br>
+        <input type="radio" name="genero" value="2">femenino
+         <br>
+         <br>
         <p> Comentarios:</p>
         <textarea name="comentario" rows="10" cols="40">escriba aquí.</textarea>
-        <br>
+         <br>
         <button>ENVIAR</button>
-    
+     </section>
 
       </form>
     </main>
